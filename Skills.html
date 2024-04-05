@@ -5,69 +5,100 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style123.css">
 <style>
-  h2 {
-    font-size: 1cm;
-  }
-.grid-container {
-  display: grid;
-  gap: 10px;
   
-  padding: 10px;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px;
-  font-size: 30px;
-}
-
-.item1 {
-  grid-column: 1 / span 2;
-  grid-row: 1;
-}
-
-.item2 {
-  grid-column: 3;
-  grid-row: 1 / span 2;
-}
-
-.item5 {
-  grid-column: 1 / span 3;
-  grid-row: 3;
-}
+      /* Additional CSS for the Skills Page */
+      .container {
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+      }
+      h1 {
+          text-align: center;
+          color: #150909;
+      }
+      p {
+          text-align: justify;
+      }
+      .skill {
+          margin-bottom: 20px;
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      .skill img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 8px;
+          margin-bottom: 10px;
+      }
+      .skill h2 {
+          color: #333;
+          margin-top: 0;
+          font-size: 20px;
+          margin-bottom: 10px;
+      }
+      .skill p {
+          margin-bottom: 15px;
+      }
+      .skill a {
+          color: #150909;
+          text-decoration: none;
+          display: inline-block;
+          border: 1px solid #007bff;
+          padding: 8px 20px;
+          border-radius: 5px;
+          transition: background-color 0.3s, color 0.3s;
+      }
+      .skill a:hover {
+          background-color: #150909;;
+          color: #fff;
+      }
+  
 </style>
 </head>
-<body>
+  <body>
+      <div class="container">
+          <h1>Skills</h1>
+          <p>
+              
+          </p>
 
-<!-- <h1>A Five Items Grid Layout</h1> -->
+          <!-- Section 1: CSS Example -->
+          <div class="skill">
+              <img src="screenshot(2).jpg" alt="CSS Example Image">
+              <h2>CSS Styling</h2>
+            <p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+              <p>A brief description of the CSS example.</p>
+              <a href="style.css">View Example</a> <!-- Link to the appropriate HTML page -->
+          </div>
 
-<div class="grid-container">
-  <div class="grid-item item1">Skills</div>
-  <div class="grid-item item2">2</div>
-  <div class="grid-item item3"> <h2>CSS Styling</h2>
-      <p> CSS (Cascading Style Sheets) is a stylesheet language used for describing the presentation of a document written in HTML or XML. It is used to control the layout, colors, fonts, and other visual aspects of a web page.The examples demonstrate various CSS styling techniques </p>
-    <p>A brief description of the CSS example.</p>
-    <img src="css_example_image.jpg" alt="CSS Example Image">
-      <a href="css_example.html">View Example</a> <!-- Link to the appropriate HTML page -->
-  </div></div>  
-  <div class="grid-item item4">  <h2>ECMAScript (JavaScript)</h2>
-    <p> ECMAScript (also known as JavaScript) is a scripting language used primarily for client-side web development. It enables interactive web pages and is commonly used to add dynamic behavior to websites.The examples demonstrate  JavaScript functionalities.</p>
-   <p>A brief description of the ECMAScript example.</p>
-  <img src="javascript_example_image.jpg" alt="ECMAScript Example Image">
-    <a href="javascript_example.html">View Example</a> <!-- Link to the appropriate HTML page --></div>
-  <div class="grid-item item5">5</div>
-</div>
+          <!-- Section 2: ECMAScript (JavaScript) Example -->
+          <div class="skill">
+              <img src="screenshot(3).jpg" alt="ECMAScript Example Image">
+              <h2>ECMAScript (JavaScript)</h2>
+            <p>ECMAScript (/ˈɛkməskrɪpt/; ES)[1] is a standard for scripting languages, including JavaScript, JScript, and ActionScript. It is best known as a JavaScript standard intended to ensure the interoperability of web pages across different web browsers.[2] It is standardized by Ecma International in the document ECMA-262.</p>
+              <p>A brief description of the ECMAScript example.</p>
+              <a href="script.js">View Example</a> <!-- Link to the appropriate HTML page -->
+          </div>
 
-<!-- <p>Direct child elements(s) of the grid container automatically becomes grid items.</p>
-
-<p>Item 1, 2, and 5 are set to span multiple columns or rows.</p> -->
-
+          <!-- Section 3: Another Example -->
+          <div class="skill">
+              <img src="another_example_image.jpg" alt="Another Example Image">
+              <h2>Another Example</h2>
+              <p>A brief description of another example.</p>
+              <a href="another_example.html">View Example</a> <!-- Link to the appropriate HTML page -->
+          </div>
+        <div class="topnav">
+          <a href="index.html"> Home Page</a>
+          <a href="Qualifications .html"> Qualifications Page</a>
+          <a href="ahihi.html"> Worldle game</a>
+      </div>
+      <script src="example.js"></script> <!-- Linking to the ECMAScript (JavaScript) file -->
+   
+  </body>
 </body>
-  <div class="topnav">
-  <a href="index.html"> Home Page</a>
-  <a href="Qualifications .html"> Qualifications Page</a>
-  <a href="ahihi.html"> Worldle game</a>
-  </div>
+  
 </html>
+
 
