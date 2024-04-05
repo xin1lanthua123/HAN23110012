@@ -161,6 +161,11 @@ function removeLetter() {
   state.grid[state.currentRow][state.currentCol - 1] = '';
   state.currentCol--;
 }
+function playAgain() {
+    location.reload();
+}
+function resetGame(): {
+}
 
 function startup() {
   const game = document.getElementById('game');
